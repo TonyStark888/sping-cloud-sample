@@ -2,5 +2,5 @@ spring:
   cloud:
     config:
       uri: http://localhost:8080/
-      profile: sit
+      profile: dev
   application:    name: config-client
