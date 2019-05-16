@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       server:
-        native:           search-locations: classpath:/conf
-  profiles:    active: native
+        git:          uri: https://github.com/TonyStark888/cloudStd
+      label: master
   application:    name: config-server
