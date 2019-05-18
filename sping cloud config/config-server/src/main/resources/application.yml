@@ -8,3 +8,11 @@ spring:
           search-paths: sample_v1.1
       label: master
   application:    name: config-server
+
+#注册Eureka的配置项
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true

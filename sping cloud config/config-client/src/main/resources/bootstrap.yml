@@ -1,6 +1,17 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8080/
+               #这里由之前的url改成discovery
+      discovery:
+        enabled: true
+        service-id: config-server
       profile: dev
   application:    name: config-client
+
+#注册Eureka的配置项     
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
