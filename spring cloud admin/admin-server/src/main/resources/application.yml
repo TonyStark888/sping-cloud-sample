@@ -14,4 +14,7 @@ spring:
   boot:
      admin:
         routes:
-          endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hysstrix.stream                                                                                                                                                                                                                                                           
+          endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hysstrix.stream
+        turbine:
+          clusters: default
+          location: turbine-server                                                                                                                                                                                                                                                           

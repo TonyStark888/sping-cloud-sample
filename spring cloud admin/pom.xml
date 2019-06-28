@@ -18,6 +18,8 @@
 		<module>eureka-server</module>
 		<module>admin-server</module>
 		<module>client-server</module>
+		<module>client-brother-server</module>
+		<module>turbine-server</module>
 	</modules>
 
 	<properties>
