@@ -4,6 +4,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true
+    metadata-map:      user.name: admin
+      user.password: 123456
 management:  security:    enabled: false
 server:  port: 9091
 logging:  file: "logs/boot-admin-sample.log"
@@ -17,4 +19,7 @@ spring:
           endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hysstrix.stream
         turbine:
           clusters: default
-          location: turbine-server                                                                                                                                                                                                                                                           
+          location: turbine-server
+security:  user:    name: admin    password: 123456
+
+                                                                                                                                                                                                                                                           
