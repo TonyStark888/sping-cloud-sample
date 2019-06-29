@@ -10,8 +10,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>client-server</artifactId>
-	<name>client-server</name>
+	<artifactId>admin-client</artifactId>
+	<name>admin-client</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
