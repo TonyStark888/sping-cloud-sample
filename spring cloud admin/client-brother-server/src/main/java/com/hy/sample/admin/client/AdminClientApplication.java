@@ -10,9 +10,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableEurekaClient
 @EnableHystrix
 @EnableHystrixDashboard
-public class ClientServerApplication {
+public class AdminClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClientServerApplication.class, args);
+		SpringApplication.run(AdminClientApplication.class, args);
 	}
 }
