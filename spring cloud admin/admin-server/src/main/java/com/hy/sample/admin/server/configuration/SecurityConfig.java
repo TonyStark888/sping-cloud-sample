@@ -9,7 +9,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	/**
 	 * 有这个配置，http://localhost:9091/login.html后就能出现Admin的登录界面
-	 * 若没有这个配置，显示的是浏览器自带的弹窗，比较丑
 	 */
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
