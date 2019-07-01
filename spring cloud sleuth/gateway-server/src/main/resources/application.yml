@@ -16,6 +16,6 @@ spring:
       percentage: 1.0
   zuul:
     routes:
-      api:
+      api-a:
         path: /client/**
         serviceId: zipkin-client
